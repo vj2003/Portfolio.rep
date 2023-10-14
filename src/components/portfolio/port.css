@@ -1,0 +1,243 @@
+a {
+  text-decoration: none;
+}
+.abthead{
+  margin-left: 5%;
+  margin-top: 2%;
+  font-family: "montserrat";
+  font-weight: bold;
+  color: olivedrab;
+  text-shadow: 2px 2px 2px olivedrab;
+  
+}
+.abtpara{
+  margin-top: 3%;
+
+  font-family: "montserrat";
+}
+
+.btn{
+  border: 1px solid olivedrab ;
+  background: none;
+padding-left: 5%;
+padding-right: 5%;
+
+  font-size: 20px;
+  font-family: "montserrat";
+  cursor: pointer;
+  margin: 10px; 
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+  font-family: Josefin Sans,sans-serif;
+  font-weight: 900;
+  margin-left: 10%;
+}
+.btn1{
+  color: darkolivegreen;
+}
+.btn1:hover{
+  color:white;
+}
+.btn::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background-color: olivedrab;
+  z-index: -1;
+  transition: 0.8s;
+}
+.btn1::before{
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+
+.btn1:hover::before{
+  height: 180%;
+}
+
+.navi{
+  margin-left: 35%;
+  font-weight: 700;
+}
+.vj{
+  font-size: xx-large;
+  font-weight: 900;
+  color: darkolivegreen;
+}
+
+.homebground{
+  background: url(https://wallpapers.com/images/hd/white-gradient-background-1920-x-1152-230ulj0xsck5qq3x.jpg);
+  height: 100vh;
+}
+.bground{
+  background: url(https://wallpapers.com/images/hd/white-gradient-background-1920-x-1152-230ulj0xsck5qq3x.jpg);
+  min-height: 100%;
+}
+
+.homename {
+  position: relative;
+  font-size: 1.5em;
+  color: #0e3742;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  outline: none;
+  line-height: 0.70em;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0008);
+  animation: animate 5s linear infinite;
+  padding-right: 35%;
+  font-weight: 900;
+  font-style: italic;
+
+  
+}
+
+@keyframes animate {
+
+  0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92% 
+  {
+    color: lightslategrey;
+    text-shadow: none;
+
+  }
+18.1%, 20.1%, 30%, 50%, 60.1%, 65%, 80.1%, 90%, 92.1%, 100% 
+{
+  color: #fff;
+  text-shadow:
+  0 0 10px #03bcf4,
+  0 0 20px #03bcf4,
+  0 0 40px #03bcf4,
+  0 0 80px #03bcf4,
+  0 0 160px #03bcf4,
+}
+}
+.hometex1{
+  font-size: x-large;
+  margin-left: 7%;
+  margin-top: 15%;
+  font-weight: 900;
+  font-style: italic; 
+}
+.porttext2{
+  font-weight: 800;
+}
+.linktext3{
+  color: olivedrab;
+  font-weight: 600;
+}
+.linktext3:hover{
+  color: crimson;
+  text-decoration: underline 4px solid;
+}
+.fonttext3:hover{
+  color: aqua;
+}
+.proeduhead {
+  color: olivedrab;
+  text-shadow: 2px 2px 2px rgb(158, 138, 138);
+
+}
+
+.procer {
+
+  border: 2px solid black;
+  padding: 5px;
+  background-color: rgb(171, 171, 171);
+  opacity: 0.7;
+  border-top-left-radius: 60%;
+  border-top-right-radius: 60%;
+}
+.procer1 {
+
+  border: 2px solid black;
+  padding: 5px;
+  background-color: rgb(171, 171, 171);
+  opacity: 0.7;
+  border-top-right-radius: 60%;
+  border-top-left-radius: 60%;
+}
+.procer2 {
+
+  border: 2px solid black;
+  padding: 5px;
+  background-color: rgb(171, 171, 171);
+  opacity: 0.7;
+  border-top-right-radius: 60%;
+  border-top-left-radius: 60%;
+}
+.procer:hover {
+  box-shadow: 6px 6px 6px olivedrab;
+  transform: scale(1.0);
+  opacity: 1;
+}
+.procer1:hover {
+  box-shadow: 6px 6px 6px olivedrab;
+  transform: scale(1.0);
+  opacity: 1;
+}
+.procer2:hover {
+  box-shadow: 6px 6px 6px olivedrab;
+  transform: scale(1.0);
+  opacity: 1;
+}
+
+.procerimage:hover {
+  transform: scale(1.7);
+  opacity: 1;
+}
+.bor{
+  margin-top: 2%;
+  border-top-right-radius: 40%;
+  font-family: Josefin Sans,sans-serif;
+}
+.bground2 {
+  background: url(https://wallpapers.com/images/hd/white-gradient-background-1920-x-1152-230ulj0xsck5qq3x.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.proedu{
+  border: 1px solid white;
+  border-radius: 25px;
+}
+.proedu:hover{
+  box-shadow: 5px 5px 5px olivedrab;
+  transform: scale(1.1);
+}
+.proeduhead{
+  text-shadow: 2px 2px 2px olivedrab;
+
+}
+.eduhead{
+  color: olivedrab;
+}
+.proabouthead:hover{
+  transform: scale(1.2);
+}
+.skillbground {
+  background: url(https://wallpapers.com/images/hd/white-gradient-background-1920-x-1152-230ulj0xsck5qq3x.jpg);
+  height: 230vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.profooterdiv{
+  margin-top: 10%;
+  margin-bottom: 5%; 
+  border: 2px solid black;
+  border-radius: 25px;
+  background-color: olivedrab
+}
+.profooterdiv:hover{
+  box-shadow: 6px 6px 6px olivedrab;
+  transform: scale(1.1);
+}
+.emote{
+  color: crimson;
+}
+.skillcss{
+  background-color: crimson;
+  justify-content: center;
+}

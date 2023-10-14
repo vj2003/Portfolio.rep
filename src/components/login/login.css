@@ -1,0 +1,49 @@
+.back{
+    background-image: linear-gradient(to right,violet, darkviolet); 
+    height:100vh;
+
+}
+
+.all{
+    border-radius: 30px;    
+}
+
+.inp{
+    border: none;
+    background-color: rgb(232, 221, 221);;
+    border-radius: 30px;
+    
+}
+.one{
+    background-color: rgb(232, 221, 221);;
+    border-radius: 20px;
+    padding: 3px;
+    padding-left: 20px;
+    width: 230px;
+    
+}
+.two{
+    background-color: rgb(232, 221, 221);
+    border-radius: 20px;
+    padding: 3px;
+    
+    width: 230px;
+}
+.but{
+    background-color: rgb(70, 217, 70);
+    width: 230px;
+    border-radius: 20px;
+
+}
+.three{
+    color:rgb(70, 217, 70); 
+}
+.picture{
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+}
+a{
+    color: rgb(70, 217, 70);
+    text-decoration: none;
+}

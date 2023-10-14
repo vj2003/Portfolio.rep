@@ -1,0 +1,16 @@
+.pict{
+    height: 100px;
+    width: 100px;
+}
+.bor{
+    border-top: 8px solid red; 
+}
+.bor1{
+    border-top: 8px solid blue; 
+}
+.bor2{
+    border-top: 8px solid green; 
+}
+.bor3{
+    border-top: 8px solid yellow; 
+}
